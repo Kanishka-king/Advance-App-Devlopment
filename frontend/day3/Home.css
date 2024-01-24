@@ -1,0 +1,86 @@
+/* src/AgricultureLoanPage.css */
+.bo {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDEwLTAwMDcuanBn.jpg') center/cover; /* Add your background image URL */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* Add your preferred font-family */
+}
+
+.agriculture-loan-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9); /* Use rgba for a semi-transparent background */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.agriculture-loan-container form {
+    display: grid;
+    gap: 2.5rem;
+}
+
+.form-row {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+
+    /* Additional styles for smaller screens */
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.agriculture-loan-container label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.agriculture-loan-container input,
+.agriculture-loan-container select {
+    width: 100%; /* Adjusted to 100% for better responsiveness */
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.agriculture-loan-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.agriculture-loan-container button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .agriculture-loan-container {
+        padding: 1rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 901px) {
+    .form-row {
+        grid-template-columns: 1fr 1fr;
+    }
+}
