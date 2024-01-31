@@ -1,0 +1,44 @@
+
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "mobile": "1234567890",
+      "email": "john.doe@example.com",
+      "aadharNo": "1234-5678-9876",
+      "scheme": "Home Loan",
+      "loanAmount": 50000,
+      "currentSalary": 60000
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "mobile": "9876543210",
+      "email": "jane.smith@example.com",
+      "aadharNo": "9876-5432-1098",
+      "scheme": "Car Loan",
+      "loanAmount": 30000,
+      "currentSalary": 40000
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "mobile": "9876543210",
+        "email": "jane.smith@example.com",
+        "aadharNo": "9876-5432-1098",
+        "scheme": "House Loan",
+        "loanAmount": 30000,
+        "currentSalary": 40000
+      },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "mobile": "5555555555",
+      "email": "bob.johnson@example.com",
+      "aadharNo": "5432-1098-7654",
+      "scheme": "Personal Loan",
+      "loanAmount": 20000,
+      "currentSalary": 30000
+    }
+  ]
+  

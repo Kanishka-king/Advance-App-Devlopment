@@ -1,0 +1,139 @@
+
+.profilecontent
+{
+
+    display: flex;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  
+    width: 80vw;
+    /* height: 60vh; */
+    min-height: 75vh;
+}
+.listt
+{
+   
+    height: 60vh;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    /* background-color: black; */
+}
+.dett
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    flex: 2;
+    height: 70vh;
+}
+.ava
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+.small_det
+{
+    margin-top: 20px;
+    color: #ADD8E6;
+    /* display: flex; */
+    text-align: center;
+    max-height: 100px;
+    margin-bottom: 30px;
+}
+.u_name
+{
+    margin-bottom: 10px;
+}
+.cont 
+{
+    margin-left: 150px;
+    color: #ADD8E6;
+    flex-direction: column;
+    display: flex;
+    /* width : 100%; */
+    
+}
+.i 
+{
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border : 0px solid black;
+    text-align: center;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.headprofile
+{
+    padding-top: 5px;
+    text-align: center;
+    color: #ADD8E6;
+    font-size: x-large;   
+    
+}
+.contentpro
+{
+    display: flex;
+    padding-top: 30px;
+}
+.stcol
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ndcol
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.buttonpro
+{
+    /* background-color: var(--Secondary-light); */
+}
+.box2
+{
+    margin-top: 200px;
+}
+.prof_info{
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 350px;
+    height: 190px;
+    background-color: white;
+    border-radius: 9px;
+}
+.logout-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn i {
+    margin-right: 5px;
+  }
+  .prof{
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 9px;
+  }
